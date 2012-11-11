@@ -1,0 +1,85 @@
+/*     僑光科技大學 跨領域學程網頁      */
+/*		power by davidou       */
+.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font-family:verdana,geneva,arial,helvetica,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:-5px;
+	}
+.menu ul{
+	background:url(images/menu-bg.png) top left repeat-x;
+	height:38px;  /*黑色選單的高度*/
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.menu li{
+		float:left;
+		}
+	.menu li a{
+		color:#ffffff;   /*選單字顏色 白*/
+		display:block;
+		font-weight:bold;
+		line-height:32px;
+		padding:0px 20px;  /*上排選單寬度*/
+		text-align:center;
+		text-decoration:none;
+		}
+	.menu li a:hover{
+			color:#ffff00;  /*大選單連結 黃色*/
+			text-decoration:none;
+			}
+	.menu li ul{
+		background:#FFFFff;
+		border-left:2px solid #0079b2;
+		border-right:2px solid #0079b2;
+		border-bottom:2px solid #0079b2;
+		display:none;
+		height:auto;
+		filter:alpha(opacity=85);  /*透明度在IE有差*/
+		opacity:0.95;
+		position:absolute;
+		width:180px;   /*SUB選單寬大小*/
+		z-index:200;
+		
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		}
+	.menu li li {   /*下拉選單的顏色*/
+		display:block;
+		float:none;
+		/*width:110px;   SUB選單 灰色*/
+		line-height:23px;
+		
+		}
+		.menu li ul a{
+		display:block;
+		font-size:12px;
+		font-style:normal;
+		padding:0px 0px 0px 0px;  /*15PX選單文字距離左邊*/
+		text-align:left;
+		padding-left:10px;
+		line-height:29px;/*下拉選單的 寬*/
+					color:#000000;  /*下拉選單  白色*/
+		}
+		.menu li ul a:hover{
+			background:#165B9F;  /*SUB 選單滑鼠色949494*/
+			color:#ffff00;
+			opacity:1.0;
+			filter:alpha(opacity=85);
+			}
+	.menu #current{
+		/*background:url(images/current-bg.gif) top left repeat-x;*/
+		color:#ffffff;
+
+		}
+		
+/*     僑光科技大學 跨領域學程網頁      */
+/*		power by davidou       */
